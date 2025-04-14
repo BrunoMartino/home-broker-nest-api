@@ -4,10 +4,10 @@ POST http://localhost:3000/assets
 Content-Type: application/json
 
 {
-  "name": "Amazon",
+  "name": "SalesForce",
   "symbol": "A1",
-  "price": 100,
-  "image": "AMZN.png"
+  "price": 250,
+  "image": "CRM.png"
 }
 
 ###
@@ -39,7 +39,7 @@ Content-Type: application/json
 
 {
   "assetId" : "{{assetId}}",
-  "shares": 100
+  "shares": 8170
 }
 
 ### 
