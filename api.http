@@ -4,10 +4,10 @@ POST http://localhost:3000/assets
 Content-Type: application/json
 
 {
-  "name": "SalesForce",
-  "symbol": "A1",
-  "price": 250,
-  "image": "CRM.png"
+  "name": "Nvidia",
+  "symbol": "NVDA",
+  "price": 700,
+  "image": "NVDA.png"
 }
 
 ###
@@ -18,7 +18,7 @@ Content-Type: application/json
 GET http://localhost:3000/assets
 
 ###
-GET http://localhost:3000/assets/A1
+GET http://localhost:3000/assets/AMZN
 
 ###
 # @name createWallet
