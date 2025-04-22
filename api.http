@@ -47,12 +47,14 @@ POST http://localhost:3000/orders
 Content-Type: application/json
 
 {
-  "walletId": "{{walletId}}",
-  "assetId": "{{assetId}}",
-  "shares": 10,
-  "price": 100,
+  "walletId": "13b7beeb-351d-4664-bf35-8449828a583d",
+  "assetId": "a96e7096-b37f-4b6d-9a42-3b6b53233ae2",
+  "shares": 200,
+  "price": 1500,
   "type": "BUY"
 }
 
+
+
 ###
-GET http://localhost:3000/orders?walletId={{walletId}}
+GET http://localhost:3000/orders?walletId=13b7beeb-351d-4664-bf35-8449828a583d
